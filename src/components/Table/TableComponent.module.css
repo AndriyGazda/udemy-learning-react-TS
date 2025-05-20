@@ -1,0 +1,38 @@
+.tableMultiplication {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+  border-collapse: collapse;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+.rowHead,
+.rowBody {
+  border: 1px solid #ccc;
+  padding: 8px 12px;
+}
+
+.rowHead {
+  background-color: #181a1a;
+  color: #fff;
+}
+
+.tableTHead {
+  background-color: #f5f5f5;
+}
+
+.tableTBody tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+.tableTBody tr:hover {
+  background-color: #f0f0f0;
+}
+
+.titleText {
+  text-align: center;
+  font-size: 24px;
+  margin-top: 20px;
+}
