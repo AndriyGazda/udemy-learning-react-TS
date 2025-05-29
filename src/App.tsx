@@ -1,8 +1,16 @@
 import "./App.css";
-import TableComponent from "./components/Table/TableComponent";
+import Counter from "./components/CounterComponent/BasicsUseState";
+import TableComponent from "./components/TableComponent/TableComponent";
+import ToDoList from "./components/ToDoListComponent/ToDoListComponent";
 
 function App() {
-  return <TableComponent />;
+  return (
+    <>
+      <ToDoList />
+      <TableComponent />
+      <Counter />
+    </>
+  );
 }
 
 export default App;

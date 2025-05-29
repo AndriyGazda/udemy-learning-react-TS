@@ -1,0 +1,9 @@
+.toDoList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.toDoListInput {
+  width: 300px;
+}
